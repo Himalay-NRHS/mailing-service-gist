@@ -27,7 +27,7 @@ app.post("/bookings", (req, res) => {
     from: "example@gmail.com",
     to: email,
     subject: "Test Message",
-    text: "hi hello qwigewgfiwbibjbbibijnjnjonjonjonu",
+    text: "hi from nodemailer",
   };
 
   transporter.sendMail(mailOptions, (err, info) => {
